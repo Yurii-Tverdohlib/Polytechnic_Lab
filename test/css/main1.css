@@ -1,0 +1,8 @@
+#img_container{
+  position: relative;
+  margin: 1vw;
+  border: dashed 1px transparent;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  filter: opacity(0.5);
+}
