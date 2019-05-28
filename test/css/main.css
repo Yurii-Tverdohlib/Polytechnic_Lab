@@ -1,0 +1,111 @@
+img{
+  position: relative;
+  margin: 1vw;
+  border: dashed 4px black;
+  border
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  filter: opacity(0.8);
+}
+body, html {
+	background-image:url('1.png');
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.bg-image {
+  background-image: url("pattern.png");
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  -webkit-filter: opacity(0.5);
+  height: 100%; 
+  background-position: center;
+  background-size: cover;
+}
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  text-align: center;
+} 
+.bg-blur{
+	background-image: linear-gradient(silver, white);
+	height: 1;
+	filter: blur(3px);
+	background-position: center;
+ 	 background-repeat: no-repeat;
+ 	 background-size: cover;
+}
+#text_01{
+	text-shadow: 0px 1px 1px rgb(243, 86, 13), 0.1em 0.3em 0.3em black;
+	color: rgb(247, 160, 42);
+	font-size: 45px;
+}
+  select{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+.selection{
+    width: 50%;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    color: rgb(247, 160, 42);
+    filter: opacity(0.5);
+    background-color: grey;
+    margin-left: 1.1vw;
+}
+.selection:active{
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
+.selection:hover{
+    color: #9050aa;
+    border-color: currentColor;
+    background-color: white;
+}
+.animation{
+  background:#98bf21;
+  height:100px;
+  width:100px;
+  position:absolute;
+}
+#table_layout{
+  background-color: rgba(0,0,0,.2);
+    border: solid 1px transparent;
+    border-radius: 4px;
+}
+.cell_layout{
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    color: rgb(247, 160, 42);
+    filter: opacity(0.5);
+    background-color: grey;
+}
+.cell_layout:active{
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
+.cell_layout:hover{
+      color: #9050aa;
+    border-color: currentColor;
+    background-color: white;
+}
